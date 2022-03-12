@@ -1,7 +1,10 @@
 # Starting JavaScript
 
-### JavaScript Basics => [Documentation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+_________
+### JavaScript Basics => [Documentation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)  
+### [Operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators)
 
+_________
 **Variáveis & Constantes.**
 
 *Tanto váriáveis quanto constantes servem para armazenar valores, porém a diferença entre eles é que:*
@@ -21,7 +24,7 @@ var age = 32;
 ```
 const yearOfBirth = 1990; 
 ```
-
+_________
 **Tipos primitivos.**
 
 [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
@@ -51,18 +54,80 @@ Exemplo:
 let item;
 ```
 
-
 [Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Null)
 Exemplo:
 ```
 let foo = null;
 ```
-
-
+_________
 **Operadores aritméticos.**
+ >Soma `+` <br />
+ >Subtração `-` <br />
+ >Multiplicação `*` <br />
+ >Divisão `/` <br />
+ >Exponenciação `**` <br />
+ >Módulo `%` <br />
+ >Incremento `++` (+1) <br />
+ >Decremento `--` (-1) <br />
 
-**Operadores de atribuição.**
-
-**Operadores lógicos.**
-
+_________
 **Estruturas condicionais como if/else e switch/case.**
+Vamos imaginar as condições possíveis para um semaforo em funcionamento para demonstrar tanto o `if/else` e também o `switch/case`:
+>`IF/ELSE`:
+```
+let statusSignal = 'amarelo';
+
+if (statusSignal === 'verde') {
+  console.log('Siga!')
+} else if (statusSignal === 'amarelo') {
+  console.log('Pense!')
+} else {
+  console.log('Pare!')
+}
+```
+
+>`SWITCH/CASE`:
+```
+let statusSignal = 'vermelho';
+
+switch(statusSignal) {
+  case 'verde':
+    console.log('Siga!');
+    break;
+  case 'amarelo':
+    console.log('Pense!')
+    break;
+  case 'vermelho':
+    console.log('Pare!')
+    break;
+  default:
+    console.log('Semaforo fora de sinal')
+    break;
+}
+```
+_________
+**Operadores lógicos**
+
+>AND `&&`
+```
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(false && false); // false
+```
+Conheça mais sobre o `&&` clique no link:[Logical AND &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
+
+>OR `||`
+```
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); // false
+```
+Conheça mais sobre o `||` clique no link:[Logical OR ||](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
+
+>NOT `!`
+
+Conheça mais sobre o `!` clique no link: [Logical NOT !](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
+_________
+### Saiba mais: [Operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators)
