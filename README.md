@@ -1,8 +1,7 @@
 # Starting JavaScript
 
 _________
-### JavaScript Basics => [Documentation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)  
-### [Operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators)
+### JavaScript Basics => [Documentation](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
 _________
 **Variáveis & Constantes.**
@@ -32,6 +31,7 @@ _________
 Exemplo:
 ```
 let name = 'Elielson';
+typeof(name); //'string'
 ```
 
 [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
@@ -39,6 +39,7 @@ let name = 'Elielson';
 Exemplo:
 ```
 let age = 32;
+typeof(age); // number
 ```
 
 [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
@@ -46,18 +47,21 @@ let age = 32;
 Exemplo:
 ```
 let english = false;
+typeof(english); //boolean
 ```
 [Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined)
 
 Exemplo:
 ```
 let item;
+typeof(item); //undefined
 ```
 
 [Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Null)
 Exemplo:
 ```
 let foo = null;
+typeof(foo); //null
 ```
 _________
 **Operadores aritméticos.**
@@ -72,7 +76,8 @@ _________
 
 _________
 **Estruturas condicionais como if/else e switch/case.**
-Vamos imaginar as condições possíveis para um semaforo em funcionamento para demonstrar tanto o `if/else` e também o `switch/case`:
+
+Vamos imaginar as condições possíveis para um semáforo em funcionamento para demonstrar tanto o `if/else` e também o `switch/case`:
 >`IF/ELSE`:
 ```
 let statusSignal = 'amarelo';
@@ -101,7 +106,7 @@ switch(statusSignal) {
     console.log('Pare!')
     break;
   default:
-    console.log('Semaforo fora de sinal')
+    console.log('Semáforo fora de sinal')
     break;
 }
 ```
