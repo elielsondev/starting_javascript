@@ -10,7 +10,7 @@ _________
 
 
 >As 'Variáveis, como o próprio nome sugere pode ter o seu valor alterado/variar:
->
+
 <h6><em> OBS: Neste no exemplo de variável estamos usando o `var`, porém podemos usar o `let`, que pra falar a verdade 
 é o mais recomendado, por motivos que não iremos abordar aqui no momento. </em></h6>
 
@@ -136,3 +136,31 @@ Conheça mais sobre o `||` clique no link:[Logical OR ||](https://developer.mozi
 Conheça mais sobre o `!` clique no link: [Logical NOT !](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
 _________
 ##### Saiba mais: [Operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators)
+
+_________
+**Array**
+
+*Os `Arrays` podem receber tanto valores do mesmo tipo, como também de tipos ditintos*
+
+Exemplo:
+```
+let fruits = ['apple', 'banana', 'papaya', 'strawberry'];
+
+let myList = ['go', 2022, true, undefined, null];
+
+```
+Conheça mais sobre o `Array` clique no link: [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
+_________
+# Please Wait:
+_________
+**For**
+>For
+
+>for/in
+
+>for/of
+__________
+**Object**
+
+__________
+**Functions**
