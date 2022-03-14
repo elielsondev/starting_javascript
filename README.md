@@ -31,7 +31,7 @@ _________
 Exemplo:
 ```
 let name = 'Elielson';
-typeof(name); //'string'
+typeof name; //'string'
 ```
 
 [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
@@ -39,7 +39,7 @@ typeof(name); //'string'
 Exemplo:
 ```
 let age = 32;
-typeof(age); // number
+typeof age; // number
 ```
 
 [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
@@ -47,21 +47,21 @@ typeof(age); // number
 Exemplo:
 ```
 let english = false;
-typeof(english); //boolean
+typeof english; //boolean
 ```
 [Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined)
 
 Exemplo:
 ```
 let item;
-typeof(item); //undefined
+typeof item; //undefined
 ```
 
 [Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Null)
 Exemplo:
 ```
 let foo = null;
-typeof(foo); //null
+typeof foo; //null
 ```
 _________
 **Operadores aritméticos.**
