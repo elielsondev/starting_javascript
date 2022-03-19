@@ -154,13 +154,72 @@ _________
 # Please Wait:
 _________
 **For**
+*O `For` cria loops, obedecendo alguns parametros da sua sintaxe*
+
 >For
+```
+let myList = [ 'paper', 'rice', 'car', 'beach', 'house', 'blue'];
 
->for/in
+for (let index = 0; index < myList.length; index +=1) {
+  console.log(myList[index])
+}
 
+// paper
+// rice
+// car
+// beach
+// house
+// blue
+```
+```
+for (let index = 1; index <= 10; index += 1) {
+  let number = 9;
+  console.log(number * index)
+};
+
+// 9
+// 18
+// 27
+// 36
+// 45
+// 54
+// 63
+// 72
+// 81
+// 90
+```
 >for/of
+```
+let numeros = [1,2,3,4,5];
+for(let numero of numeros) {
+  console.log(numero);
+}
+
+//1
+//2
+//3
+//4
+//5
+```
+
+```
+
+let word = 'Hello';
+for (let letter of word) {
+  console.log(letter);
+}
+
+// "H"
+// "e"
+// "l"
+// "l"
+// "o"
+```
 __________
 **Object**
-
+*A classe `Object` representa um dos tipos de dados do JavaScript. É usado para armazenar várias coleções de chaves e entidades mais complexas*
+```
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+```
 __________
 **Functions**
