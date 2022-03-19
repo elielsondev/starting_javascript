@@ -154,6 +154,7 @@ _________
 # Please Wait:
 _________
 **For**
+
 *O `For` cria loops, obedecendo alguns parametros da sua sintaxe*
 
 >For
@@ -217,9 +218,23 @@ for (let letter of word) {
 ```
 __________
 **Object**
+
 *A classe `Object` representa um dos tipos de dados do JavaScript. É usado para armazenar várias coleções de chaves e entidades mais complexas*
 ```
 const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ```
 __________
 **Functions**
+
+*Cada função JavaScript é na verdade um objeto `Function`, ou seja é uma estrutura de dados criada para uma 'função' designada a ela.*
+
+No exemplo a seguir vamos criar uma função simples que retorna a soma de dois valores passados por parametros.
+
+```
+function soma (n1, n2) {
+  return n1 + n2;
+}
+
+soma(10, 20);
+```
+`Atenção!!! Pesquise mais sobre funções, pois ela é muito importante em JavaScript e sucesso futuro DEV.`
