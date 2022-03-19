@@ -151,8 +151,6 @@ let myList = ['go', 2022, true, undefined, null];
 ```
 Conheça mais sobre o `Array` clique no link: [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
 _________
-# Please Wait:
-_________
 **For**
 
 *O `For` cria loops, obedecendo alguns parametros da sua sintaxe*
@@ -237,4 +235,7 @@ function soma (n1, n2) {
 
 soma(10, 20);
 ```
-`Atenção!!! Pesquise mais sobre funções, pois ela é muito importante em JavaScript e sucesso futuro DEV.`
+
+`Atenção!!! Pesquise mais  a fundo cada tópico abordado aqui e principalmente sobre funções, pois o conhecimento sobre essas ferramentas são muito importantes para iniciar sua carreira em JavaScript, de coração lhe desejo sucesso futuro DEV.`
+
+> Dica de Ouro: Consultar a [documentação](https://developer.mozilla.org/en-US/docs/Web/JavaScript) é o segredo para um bom aprendizado.
