@@ -233,7 +233,7 @@ function soma (n1, n2) {
   return n1 + n2;
 }
 
-soma(10, 20);
+console.log(soma(10, 20));
 ```
 
 `Atenção!!! Pesquise mais  a fundo cada tópico abordado aqui e principalmente sobre funções, pois o conhecimento sobre essas ferramentas são muito importantes para iniciar sua carreira em JavaScript, de coração lhe desejo sucesso futuro DEV.`
