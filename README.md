@@ -167,6 +167,26 @@ _________
 ##### Saiba mais: [Operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators)
 
 _________
+**While**
+##### ⚠️ Tenha muito cuidado! É fácil causar loops infinitos utilizando o while!
+
+*Ao contrário do for, o while executa a iteração com apenas uma condição. Enquanto essa condição for verdadeira o conteúdo de escopo do while vai sendo cumprido e ao encontrar uma condição falsa o bloco é então encerrado. Por exemplo:*
+```
+let counter = 0;
+
+while(counter !== 5) {
+  counter += 1;
+}
+
+```
+Neste caso o while irá rodar até que a variável counter alcance o valor 5. Mas e se o valor inicial fosse 6, o que aconteceria?
+
+Ele entraria em um loop infinito, e provavelmente travaria o computador. Para então não termos esse problema é importante nos certificarmos do valor inicial que será atribuído.
+
+###### 💡 Dica: com o comando break é possível também encerrar o loop while quando assim desejar. [Veja um exemplo aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/break#exemplos)
+
+Saiba mais: Há outras maneiras de iterarmos sobre uma operação, utilizando o do…while, se quiser saber mais, [veja aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while)
+_________
 **Array**
 
 *Os `Arrays` podem receber tanto valores do mesmo tipo, como também de tipos ditintos*
