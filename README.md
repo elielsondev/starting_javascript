@@ -113,7 +113,7 @@ switch(statusSignal) {
 _________
 **Operadores lógicos**
 
->AND `&&`
+>AND `&&` Só retorna true apenas quando as duas condições forem verdadeiras.
 ```
 console.log(true && true); // true
 console.log(true && false); // false
@@ -122,7 +122,7 @@ console.log(false && false); // false
 ```
 Conheça mais sobre o `&&` clique no link:[Logical AND &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 
->OR `||`
+>OR `||` Só retorna falso quando ambas condições forem falsas.
 ```
 console.log(true || true); // true
 console.log(true || false); // true
@@ -131,7 +131,7 @@ console.log(false || false); // false
 ```
 Conheça mais sobre o `||` clique no link:[Logical OR ||](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
 
->NOT `!`
+>NOT `!` Ele é capaz de inverter o valor booleano de um elemento.
 
 Conheça mais sobre o `!` clique no link: [Logical NOT !](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
 _________
