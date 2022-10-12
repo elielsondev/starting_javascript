@@ -161,6 +161,10 @@ console.log(false || false); // false
 Conheça mais sobre o `||` clique no link:[Logical OR ||](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
 
 >NOT `!` Ele é capaz de inverter o valor booleano de um elemento.
+```
+console.log(!true); // false
+console.log(!false); // true
+```
 
 Conheça mais sobre o `!` clique no link: [Logical NOT !](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
 _________
