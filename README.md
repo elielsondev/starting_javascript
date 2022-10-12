@@ -182,7 +182,7 @@ let fruits = ['apple', 'banana', 'papaya', 'strawberry'];
 let myList = ['go', 2022, true, undefined, null];
 
 ```
-Conheça mais sobre o `Array` clique no link: [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
+Conheça algumas das possibilidades mais utilizadas para manipular arrays.[Conheça](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
 _________
 **For**
 
