@@ -172,6 +172,7 @@ _________
 
 _________
 **Array**
+[Assistir Vídeo](https://www.youtube.com/watch?v=lXsKBDhixXQ)
 
 *Os `Arrays` podem receber tanto valores do mesmo tipo, como também de tipos ditintos*
 
@@ -278,6 +279,7 @@ const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ```
 __________
 **Functions**
+[Assistir Vídeo](https://www.youtube.com/watch?v=lXsKBDhixXQ)
 
 *Cada função JavaScript é na verdade um objeto `Function`, ou seja é uma estrutura de dados criada para uma 'função' designada a ela.*
 
