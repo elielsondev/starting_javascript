@@ -322,4 +322,36 @@ console.log(soma(10, 20));
 
 `Atenção!!! Pesquise mais  a fundo cada tópico abordado aqui e principalmente sobre funções, pois o conhecimento sobre essas ferramentas são muito importantes para iniciar sua carreira em JavaScript, de coração lhe desejo sucesso futuro DEV.`
 
+## JavaScript ES6 - Template literal, Arrow function, Ternary operator
+*Template literal*
+```
+const name = 'Elielson';
+
+// Sem template literal
+console.log('Olá' + ' ' + name + '!')
+```
+
+```
+const name = 'Elielson';
+
+// Com template literal
+console.log(`Olá ${name}!`)
+```
+
+*Arrow function*
+```
+// Sem arrow function
+function userName() {
+  const name = 'Elielson';
+  return name
+}
+
+console.log(userName());
+```
+
+*Ternary operator*
+```
+
+```
+
 > Dica de Ouro: Consultar a [documentação](https://developer.mozilla.org/en-US/docs/Web/JavaScript) é o segredo para um bom aprendizado.
