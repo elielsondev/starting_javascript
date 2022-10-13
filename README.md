@@ -221,18 +221,45 @@ for (let index = 1; index <= 10; index += 1) {
 // 81
 // 90
 ```
->for/of
+>for/in
 ```
-let numeros = [1,2,3,4,5];
-for(let numero of numeros) {
-  console.log(numero);
+let cars = ['Saab', 'Volvo', 'BMW'];
+
+for (let index in cars) {
+  console.log(cars[index]);
 }
 
-//1
-//2
-//3
-//4
-//5
+// Saab
+// Volvo
+// BMW
+```
+Um outro exemplo é a iteração nas chaves de um objeto:
+```
+let car = {
+  type: 'Fiat',
+  model: '500',
+  color: 'white',
+};
+
+for (let index in car) {
+  console.log(index, car[index]);
+}
+
+// type Fiat
+// model 500
+// color white
+```
+
+>for/of
+```
+let food = ['hamburguer', 'bife', 'acarajé'];
+for (let value of food) {
+  console.log(value);
+};
+
+// hamburguer
+// bife
+// acarajé;
 ```
 
 ```
