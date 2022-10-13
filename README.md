@@ -259,7 +259,7 @@ for (let value of food) {
 
 // hamburguer
 // bife
-// acarajé;
+// acarajé
 ```
 
 ```
