@@ -174,7 +174,7 @@ _________
 **Array**
 [Assistir Vídeo](https://www.youtube.com/watch?v=lXsKBDhixXQ)
 
-*Os `Arrays` podem receber tanto valores do mesmo tipo, como também de tipos ditintos*
+*Os `Arrays` podem receber tanto valores do mesmo tipo, como também de tipos distintos*
 
 Exemplo:
 ```
