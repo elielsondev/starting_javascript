@@ -83,11 +83,13 @@ Vamos imaginar as condições possíveis para um semáforo em funcionamento para
 let statusSignal = 'amarelo';
 
 if (statusSignal === 'verde') {
-  console.log('Siga!')
+    console.log('Siga!');
 } else if (statusSignal === 'amarelo') {
-  console.log('Pense!')
+    console.log('Pense!');
+} else if(statusSignal === 'vermelho') {
+    console.log('Pare!');
 } else {
-  console.log('Pare!')
+    console.log('Problemas no sinal.');
 }
 ```
 
