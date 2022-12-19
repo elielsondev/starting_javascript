@@ -325,7 +325,7 @@ console.log(soma(10, 20));
 `Atenção!!! Pesquise mais  a fundo cada tópico abordado aqui e principalmente sobre funções, pois o conhecimento sobre essas ferramentas são muito importantes para iniciar sua carreira em JavaScript, de coração lhe desejo sucesso futuro DEV.`
 
 ## JavaScript ES6 - Template literal, Arrow function, Ternary operator
-**Template literal
+**Template literal**
 ```
 // Sem template literal
 
