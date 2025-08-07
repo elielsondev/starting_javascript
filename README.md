@@ -304,7 +304,12 @@ __________
 
 *A classe `Object` representa um dos tipos de dados do JavaScript. É usado para armazenar várias coleções de chaves e entidades mais complexas*
 ```
-const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+const person = {
+  firstName:"John",
+  lastName:"Doe",
+  age:50,
+  eyeColor:"blue"
+};
 ```
 __________
 **Functions**
@@ -352,8 +357,8 @@ console.log(userName());
 ```
 // Com arrow function
 const userName = () => { 
-const name = 'Elielson';
-return name;
+  const name = 'Elielson';
+  return name;
 };
 
 console.log(userName());
@@ -363,7 +368,7 @@ console.log(userName());
 ```
 let colorSky = 'azul';
 
-colorSky === 'azul' ? console.log('verdadeiro') : console.log('falso');
+console.log(colorSky === 'azul' ? 'verdadeiro' : 'falso');  // verdadeiro
 ```
 
 > Dica de Ouro: Consultar a [documentação](https://developer.mozilla.org/en-US/docs/Web/JavaScript) é o segredo para um bom aprendizado.
